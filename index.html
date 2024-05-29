@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>About Mbeko Sifolo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header><h1 class="display-4">About Mbeko Sifolo</h1></header>
+    
+    <div class="flexContainer py-4">
+
+        <div id="flexItem1">
+            <h3>Get in touch</h3>
+            <table>
+                <tr>
+                    <td>Email: </td>
+                    <td>mbeko007@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Contact number: </td>
+                    <td>0606046793</td>
+                </tr>
+                <tr>
+                    <td>LinkedIn: </td>
+                    <td><a href="https://www.linkedin.com/in/mbeko-sifolo-5413b5243">Mbeko Sifolo</a></td>
+                </tr>
+            </table>
+
+            <img src="image2.jpg"
+                 alt="An image of me." />
+        </div>
+
+        <div id="flexItem2" class="px-4">
+            <p>My name is Mbeko Sifolo. Born and raised in Kokstad, KwaZulu Natal. I enjoy films, television, comic books and novels. I am passionate about 3D art, politics, and the world around me. </p>
+
+            <h3>Skills and Proficiencies</h3>
+            <ul>
+                <li>Microsoft Office Suite (Word, Excel, Powerpoint)</li>
+                <li>Blender3D</li>
+                <li>Communication Skills(written and verbal)</li>
+                <li>Typing Skills</li>
+                <li>Telephone etiquette</li>
+                <li>Minutes Taking</li>
+                <li>Time Management</li>
+                <li>Driver's License</li>
+            </ul>
+
+            <h3>Education</h3>
+            <table>
+                <tr>
+                    <td>Primary School: </td>
+                    <td>Kokstad Junior School</td>
+                </tr>
+                <tr>
+                    <td>Secondary School: </td>
+                    <td>Kokstad College High School</td>
+                </tr>
+            </table>
+
+            <br />
+
+            <h3>Find on Site</h3>
+            <form role="search" method="get">
+                <!--Allows users to search for keywords on the site.-->
+                <label>Search this site: </label>
+                <input type="search" id="query" maxlength="30" />
+                <button>Search</button>
+            </form>
+
+            <br />
+
+            <h3>Send Me a Message</h3>
+            <form action="https://api.web3forms.com/submit" method="post" class="formStyle">
+                <!--The action page allows forms to be submitted.-->
+                <input type="hidden" name="access_key" value="ed9a8c1b-8147-4557-b0c8-bc4ede430f89" />
+
+                <label>First name: </label>
+                <input type="text" name="first_name" maxlength="30" required />
+                <br />
+
+                <label>Surname</label>
+                <input type="text" name="surname" maxlength="30" required />
+                <br />
+
+                <label>Email: </label>
+                <input type="email" name="email" maxlength="30" required />
+                <br />
+
+                <label>Subject</label>
+                <textarea placeholder="Share your thoughts" name="message" rows="10" cols="30"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
